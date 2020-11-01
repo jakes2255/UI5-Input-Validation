@@ -7,7 +7,7 @@
 					<l:VerticalLayout class="sapUiContentPadding" width="100%">
 						<Label text="Mob:" labelFor="emailInput"/>
 						<Input id="mobnput" class="sapUiSmallMarginBottom" placeholder="Enter mobile number..." width="170px"
-							value="" liveChange="onMobNumberChangeRegEx"/>
+							value="" liveChange="onMobNumberChange"/>
 					</l:VerticalLayout>
 				</content>
 			</Page>
