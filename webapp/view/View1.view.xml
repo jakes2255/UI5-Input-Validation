@@ -1,0 +1,16 @@
+<mvc:View controllerName="com.demo.aj.Z_Input_Validation.controller.View1" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:html="http://www.w3.org/1999/xhtml" displayBlock="true" xmlns="sap.m" xmlns:l="sap.ui.layout">
+	<App id="idAppControl">
+		<pages>
+			<Page title="Input Validation in SAPUI5">
+				<content>
+					<l:VerticalLayout class="sapUiContentPadding" width="100%">
+						<Label text="Mob:" labelFor="emailInput"/>
+						<Input id="mobnput" class="sapUiSmallMarginBottom" placeholder="Enter mobile number..." width="170px"
+							value="" liveChange="onMobNumberChangeRegEx"/>
+					</l:VerticalLayout>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
